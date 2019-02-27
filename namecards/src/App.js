@@ -6,6 +6,36 @@ import CardThree from './Components/CardThree';
 import Footer from './Components/Footer';
 
 class App extends Component {
+  constructor(prop) {
+    super(prop);
+    this.state = {
+      cOne: [
+        {
+          name: "Philippe Recto",
+          title: "Front-End Web Developer",
+          department: "Production",
+          office: "Carlsbad"
+        }
+      ],
+      cTwo: [
+        {
+          name: "Paul Davidson",
+          title: "Front-End Web Developer",
+          department: "Production",
+          office: "Richmond"
+        }
+      ],
+      cThree: [
+        {
+          name: "Wendy Cheng",
+          title: "Back-End Web Developer",
+          department: "Production",
+          office: "San Jose"
+        }
+      ]
+    }
+  }
+
   render() {
     return (
       <div className="App">
