@@ -4,7 +4,7 @@ import CardOne from './Components/CardOne';
 import CardTwo from './Components/CardTwo';
 import CardThree from './Components/CardThree';
 import Footer from './Components/Footer';
-
+import Form from './Components/Form';
 class App extends Component {
   constructor(prop) {
     super(prop);
@@ -42,6 +42,11 @@ class App extends Component {
         <div className="container">
           <div className="Jumbotron my-5">
             <h1 className="bg-primary text-white p-5">Cards with Names</h1>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <Form />
+            </div>
           </div>
           <div className="row">
             <div className="col-md-4 px-5">
