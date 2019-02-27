@@ -41,20 +41,21 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="Jumbotron my-5">
-            <h1 className="bg-primary text-white">Hello World!</h1>
+            <h1 className="bg-primary text-white p-5">Cards with Names</h1>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 px-5">
               <CardOne
-                cOneName="Name" cOneTitle="Title" cOneDepartment="Department" cOneOffice="Office" />
+                cOneName={this.state.cOne[0].name} cOneTitle={this.state.cOne[0].title} cOneDepartment={this.state.cOne[0].department} cOneOffice={this.state.cOne[0].office} />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 px-5">
               <CardTwo
-                cTwoName="Another Name" cTwoTitle="Another Title" cTwoDepartment="Another Department" cTwoOffice="Another Office" />
+                cTwoName={this.state.cTwo[0].name} cTwoTitle={this.state.cTwo[0].title} cTwoDepartment={this.state.cTwo[0].department} cTwoOffice={this.state.cTwo[0].office} />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 px-5">
               <CardThree
-                cThreeName="Yet Again, a Name" cThreeTitle="Yet Again, a Title" cThreeDepartment="Yet Again, a Department" cThreeOffice="Yet Again, a Office" />
+                cThreeName={this.state.cThree[0].name} cThreeTitle={this.state.cThree[0].title}
+                cThreeDepartment={this.state.cThree[0].department} cThreeOffice={this.state.cThree[0].office} />
             </div>
           </div>
           <div className="row my-5">
