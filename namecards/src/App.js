@@ -7,13 +7,14 @@ import Footer from './Components/Footer';
 import Form from './Components/Form';
 import Icon from './Components/Images/icon1.png';
 import NewCard from './Components/NewCard';
+import TableComp from './TableComponents/Table';
 class App extends Component {
   constructor(prop) {
     super(prop);
     this.state = {
       cOne: [
         {
-          name: "Philippe Recto",
+          name: "Philippe",
           title: "Lead Developer",
           department: "Production",
           office: "Carlsbad"
@@ -21,7 +22,7 @@ class App extends Component {
       ],
       cTwo: [
         {
-          name: "Paul Davidson",
+          name: "Paul",
           title: "Chief UX Designer",
           department: "Design",
           office: "Richmond"
@@ -29,7 +30,7 @@ class App extends Component {
       ],
       cThree: [
         {
-          name: "Wendy Cheng",
+          name: "Wendy",
           title: "Database Manager",
           department: "Database Management",
           office: "San Jose"
@@ -81,12 +82,17 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
+            <div className="col-lg-12">
+              <TableComp />
+            </div>
+          </div>
+          <div className="row">
             <div className="col-md-12 text-center my-1">
               <Footer />
             </div>
           </div>
         </div>
-      </div >
+      </div>
     );
   }
 }
