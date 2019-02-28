@@ -6,6 +6,7 @@ import CardThree from './Components/CardThree';
 import Footer from './Components/Footer';
 import Form from './Components/Form';
 import Icon from './Components/Images/icon1.png';
+import NewCard from './Components/NewCard';
 class App extends Component {
   constructor(prop) {
     super(prop);
@@ -72,8 +73,11 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12 my-1">
+            <div className="col-lg-6 my-1">
               <Form />
+            </div>
+            <div className="col-lg-6 my-1">
+              <NewCard />
             </div>
           </div>
           <div className="row">

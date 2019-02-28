@@ -6,7 +6,7 @@ const Form = () => {
     <div className="container">
       <div className="card my-1">
         <div className="card-header py-2">
-          <h2>Enter An Employee:</h2>
+          <h2>Enter New Person:</h2>
         </div>
         <form>
           <div className="card-body">
