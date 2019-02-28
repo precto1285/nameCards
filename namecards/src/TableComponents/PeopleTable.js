@@ -1,11 +1,11 @@
 import React from 'react';
 
-const PeopleTable = () => {
+const PeopleTable = (prop) => {
   return (
     <div className="text-dark">
-      <h1 className="my-5">People Table</h1>
-      <table className="table table-dark">
-        <thead>
+      <h1 className="my-5 text-center">People Table</h1>
+      <table className="table table-sm">
+        <thead className="thead-dark">
           <th scope="col">Name</th>
           <th scope="col">Title</th>
           <th scope="col">Department</th>

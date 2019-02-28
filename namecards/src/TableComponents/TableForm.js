@@ -3,7 +3,7 @@ import React from 'react';
 const TableForm = () => {
   return (
     <div className="container">
-      <h1 className="my-5">Table Form</h1>
+      <h1 className="my-5 text-center">Table Form</h1>
       <div className="card my-1  text-dark">
         <div className="card-header py-2">
           <h2>Enter New Person:</h2>

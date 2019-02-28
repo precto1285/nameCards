@@ -8,8 +8,8 @@ class TableComp extends Component {
     return (
       <div className="container my-5">
         <div className="row">
-          <div className="col-lg-6 bg-primary text-white text-center py-5"><TableForm /></div>
-          <div className="col-lg-6 bg-warning text-center py-5"><PeopleTable /></div>
+          <div className="col-lg-6 bg-primary text-white py-5"><TableForm /></div>
+          <div className="col-lg-6 bg-warning py-5"><PeopleTable /></div>
         </div>
       </div>
     )
