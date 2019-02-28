@@ -51,6 +51,9 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
+            <Image />
+          </div>
+          <div className="row">
             <div className="col-md-4 px-5">
               <CardOne
                 cOneName={this.state.cOne[0].name}
@@ -73,9 +76,7 @@ class App extends Component {
                 cThreeOffice={this.state.cThree[0].office} />
             </div>
           </div>
-          <div className="row">
-            <Image />
-          </div>
+
           <div className="row my-5">
             <div className="col-md-12">
               <Footer />

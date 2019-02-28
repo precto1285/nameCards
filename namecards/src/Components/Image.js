@@ -8,13 +8,13 @@ const imageCarousel = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-4 my-5">
-          <img src={person1} alt="p1" className="w-100" />
+          <img src={person1} alt="p1" className="w-100 rounded-circle" />
         </div>
         <div className="col-md-4 my-5">
-          <img src={person2} alt="p1" className="w-100" />
+          <img src={person2} alt="p1" className="w-100 rounded-circle" />
         </div>
         <div className="col-md-4 my-5">
-          <img src={person3} alt="p1" className="w-100" />
+          <img src={person3} alt="p1" className="w-100 rounded-circle" />
         </div>
       </div>
     </div>
