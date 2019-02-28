@@ -5,7 +5,7 @@ const CardThree = (prop) => {
     <div>
       <div className="card">
         <div className="card-header">
-          <h3>Database Manager</h3>
+          <h3>Person:</h3>
         </div>
         <div className="card-body">
           <p>{prop.cThreeName}</p>

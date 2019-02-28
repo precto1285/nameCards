@@ -5,7 +5,7 @@ const CardTwo = (prop) => {
     <div>
       <div className="card">
         <div className="card-header">
-          <h3>Chief UX Designer</h3>
+          <h3>Person:</h3>
         </div>
         <div className="card-body">
           <p>{prop.cTwoName}</p>

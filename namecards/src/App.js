@@ -13,7 +13,7 @@ class App extends Component {
       cOne: [
         {
           name: "Philippe Recto",
-          title: "Front-End Web Developer",
+          title: "Lead Developer",
           department: "Production",
           office: "Carlsbad"
         }
@@ -21,16 +21,16 @@ class App extends Component {
       cTwo: [
         {
           name: "Paul Davidson",
-          title: "Front-End Web Developer",
-          department: "Production",
+          title: "Chief UX Designer",
+          department: "Design",
           office: "Richmond"
         }
       ],
       cThree: [
         {
           name: "Wendy Cheng",
-          title: "Back-End Web Developer",
-          department: "Production",
+          title: "Database Manager",
+          department: "Database Management",
           office: "San Jose"
         }
       ]
@@ -45,11 +45,7 @@ class App extends Component {
           <div className="Jumbotron my-5">
             <h1 className="bg-primary text-white p-5">Cards with Names</h1>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <Form onSubmit="Hello World!" />
-            </div>
-          </div>
+
           <div className="row">
             <Image />
           </div>
@@ -76,7 +72,11 @@ class App extends Component {
                 cThreeOffice={this.state.cThree[0].office} />
             </div>
           </div>
-
+          <div className="row">
+            <div className="col-lg-12">
+              <Form onSubmit="Hello World!" />
+            </div>
+          </div>
           <div className="row my-5">
             <div className="col-md-12">
               <Footer />
