@@ -3,9 +3,9 @@ import React from 'react';
 const Form = () => {
 
   return (
-    <div className="container my-5 py-5 bg-secondary">
-      <div className="card bg-secondary">
-        <div className="card-header">
+    <div className="container">
+      <div className="card my-1">
+        <div className="card-header py-2">
           <h2>Enter An Employee:</h2>
         </div>
         <form>
@@ -27,7 +27,7 @@ const Form = () => {
               <input id="officeInput" type="text" className="form-control" />
             </div>
           </div>
-          <div className="card-footer">
+          <div className="card-footer py-5">
             <button className="btn btn-danger form-control">Submit</button>
           </div>
         </form>

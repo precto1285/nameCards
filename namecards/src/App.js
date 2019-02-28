@@ -5,6 +5,7 @@ import CardTwo from './Components/CardTwo';
 import CardThree from './Components/CardThree';
 import Footer from './Components/Footer';
 import Form from './Components/Form';
+import Icon from './Components/Images/icon1.png';
 class App extends Component {
   constructor(prop) {
     super(prop);
@@ -41,8 +42,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <div className="Jumbotron m-1 my-5">
-            <h1 className="bg-primary text-white p-5">Cards with Names</h1>
+          <div className="jumbotron bg-primary text-white text-center">
+            <div className="row">
+              <div className="col-sm-3"><img src={Icon} alt="icon" /></div>
+              <div className="col-sm-6 my-auto"><h1>Cards with Names</h1></div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-4 my-1 px-1">
@@ -68,17 +72,17 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
-              <Form onSubmit="Hello World!" />
+            <div className="col-lg-12 my-1">
+              <Form />
             </div>
           </div>
-          <div className="row my-5">
-            <div className="col-md-12">
+          <div className="row">
+            <div className="col-md-12 text-center my-1">
               <Footer />
             </div>
           </div>
         </div>
-      </div>
+      </div >
     );
   }
 }
